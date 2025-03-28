@@ -1,0 +1,56 @@
+# =====================
+# Model Configuration
+# =====================
+model:
+  name: "AutoEncoderV2"            # Model architecture name
+  input_dim: 768                   # Input feature dimension
+  latent_dim: 128                  # Latent space dimension
+  encoder_layers: [768, 512, 256]  # Encoder layer dimensions
+  decoder_layers: [256, 512, 768]  # Decoder layer dimensions
+  activation: "leaky_relu"         # Activation function [relu, leaky_relu, gelu]
+  dropout: 0.1                     # Dropout probability
+
+# =====================
+# Data Configuration
+# =====================
+data:
+  input_path: "data/raw_data.npy"  # Input data path
+  output_dir: "processed/"         # Preprocessing output directory
+  preprocessing:
+    normalize: True                # Enable data normalization
+    augment: False                 # Enable data augmentation
+    augment_methods:               # Augmentation methods
+      - random_crop: 
+          size: 0.9                # Random crop ratio
+      - color_jitter: 
+          strength: 0.2            # Color jitter intensity
+
+# =====================
+# Training Parameters
+# =====================
+train:
+  epochs: 100                      # Total training epochs
+  batch_size: 256                  # Batch size
+  optimizer: "adam"                # Optimizer [adam, sgd]
+  learning_rate: 0.001             # Initial learning rate
+  lr_scheduler: "cosine"           # Learning rate scheduler [cosine, step]
+  loss: "mse"                      # Loss function type
+
+# =====================
+# Logging & Monitoring
+# =====================
+logging:
+  log_dir: "logs/"                 # TensorBoard log directory
+  checkpoint_dir: "checkpoints/"   # Model checkpoint path
+  save_interval: 5                 # Checkpoint save interval (epochs)
+  monitor_metric: "val_loss"       # Early-stopping metric
+  save_best: True                  # Save best model
+
+# =====================
+# Hardware Settings
+# =====================
+hardware:
+  device: "cuda"                   # Training device [cuda, cpu]
+  mixed_precision: True            # Enable mixed precision training
+  cudnn_benchmark: True            # Enable CuDNN benchmark optimization
+  num_workers: 8                   # DataLoader worker threads

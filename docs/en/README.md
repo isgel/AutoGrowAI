@@ -1,0 +1,1 @@
+A large number of English translations have not been completed yet. Please understand that my personal energy is limited. If you wish to use them now, please use a translation software in conjunction.
