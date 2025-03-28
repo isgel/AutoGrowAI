@@ -2,7 +2,7 @@
   <h1>🌐 AutoGrowAI</h1>
   <p>Self-Supervised Learning AI Framework | 自监督学习AI框架</p>
 
-  # Copyright (c) 2023 [iceflow]. 
+  # Copyright (c) 2025 [iceflow]. 
 # Licensed under the AGPL-3.0 License.
 # 商业使用需获得书面授权，联系: hkiceflow@gmail.com
 # Written authorization is required for commercial use, contact:hkiceflow@gmail.com
