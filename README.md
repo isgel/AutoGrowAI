@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>🌐 IceFlow</h1>
-  <p>Self-Supervised Learning Framework | 自监督学习框架</p>
+  <h1>🌐 AutoGrowAI</h1>
+  <p>Self-Supervised Learning AI Framework | 自监督学习AI框架</p>
   
   [English](docs/en/README.md) | [中文](docs/zh/README.md)  
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
