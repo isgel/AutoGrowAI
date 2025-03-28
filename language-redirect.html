@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        const userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith('zh')) {
+            window.location.href = 'docs/zh/README.md';
+        } else {
+            window.location.href = 'docs/en/README.md';
+        }
+    </script>
+</head>
+
+</html>
